@@ -1,0 +1,44 @@
+/*
+font-family: "Merriweather, serif";
+*/
+
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: italic;
+  padding-bottom: .5rem;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4rem;
+}
+
+header h1{
+  grid-column: 1 / 4;
+}
+
+header img {
+  grid-column:1 / -1;
+  grid-row: 2 / -1;
+}
