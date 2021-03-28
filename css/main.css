@@ -25,7 +25,7 @@ h1 {
   font-size: 1.8rem;
   font-style: italic;
   font-weight: normal;
-  padding-top: 1.215rem;
+  padding-top: 1.125rem;
   padding-left: 1rem;
   padding-bottom: 1.1rem;
   margin: 0;
@@ -37,7 +37,7 @@ h1 {
   padding: 0;
   display: grid;
   grid-template-columns: 4fr 2rem;
-  grid-template-rows: 1fr 2.2rem 2rem;
+  grid-template-rows: 1fr 2.515rem 2.515rem;
   align-self: auto;
 }
 
@@ -59,8 +59,8 @@ h1 {
 }
 
 .banner p {
-  font-size: .9rem;
-  padding: 0 1rem;
+  font-size: 1rem;
+  padding: 0;
   margin: 0;
   grid-column: 1;
   grid-row: 3;
@@ -89,4 +89,8 @@ h1 {
 .images-info dl {
   padding: 0;
   margin: 0 0 1.5rem;
+}
+
+.images-info dt {
+  font-style: italic;
 }
