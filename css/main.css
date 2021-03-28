@@ -17,28 +17,70 @@ body {
   padding: 0;
 }
 
-h1 {
+header h1 {
   font-size: 1.8rem;
   font-weight: normal;
   font-style: italic;
-  padding-bottom: .5rem;
 }
 
-img {
-  width: 100%;
-}
-
+/*
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
 }
 
 header h1 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: italic;
   grid-column: 1 / 4;
 }
 
 header img {
+  grid-column: 1 / 4;
+}
+
+header h2 {
+  grid-column: 1 / 4;
+  color: #fff;
+}
+
+header p {
+  color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main h2 {
+  font-family: Merriweather, serif;
+  font-style: italic;
+}
+*/
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 4em;
+}
+
+.top img {
+  width:100%;
   grid-column: 1 / -1;
-  grid-row: 2 / -1;
+  grid-row: 1 / -1;
+}
+
+.top h2 {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  color: #fff;
+}
+
+.top p {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  color: #fff;
 }
